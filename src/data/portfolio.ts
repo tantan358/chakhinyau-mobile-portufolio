@@ -62,7 +62,7 @@ export const studios: Studio[] = [
   },
   {
     id: "hkej-company",
-    name: "myarx apps",
+    name: "Myarx apps",
     years: "2016–2017",
     duration: "3 years",
     description: "Enterprise-scale apps for education, hospitality, media, and the cultural sector in Hong Kong.",
@@ -76,7 +76,7 @@ export const studios: Studio[] = [
   },
   {
     id: "hkt",
-    name: "Hong Kong Telecommunications (HKT) Ltd",
+    name: "Booking.com Hotels & Vacation Rentals",
     years: "2013–2015",
     duration: "2 years",
     description: "School catering, merchant services apps, and HKFP news delivery for Hong Kong users.",
@@ -89,7 +89,7 @@ export const studios: Studio[] = [
   },
   {
     id: "octopusx",
-    name: "OctopusX",
+    name: "WishRoll",
     years: "2012–2013",
     duration: "2 years",
     description: "Current era. HSBC Private Banking, healthcare apps, automotive platforms, and enterprise products.",
