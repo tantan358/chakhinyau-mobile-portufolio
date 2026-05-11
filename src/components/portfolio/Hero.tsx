@@ -95,12 +95,13 @@ const Hero = () => {
             style={{ textWrap: "pretty" as any }}
           >
             12 years building high-scale Android, iOS & Cross-platform apps.
-            Trilingual engineer delivering robust mobile products for finance, media, and gaming.
+            Mobile engineer delivering robust products for finance, media, and gaming.
           </p>
         </motion.div>
 
-        {/* Figma design portfolio — gradient frame inspired by Figma brand colors */}
-        <motion.div variants={itemVariants} className="mt-8 flex justify-center">
+        {/* Portfolio links — Figma & Workana */}
+        <motion.div variants={itemVariants} className="mt-8 flex flex-wrap justify-center gap-3">
+          {/* Figma design portfolio */}
           <motion.a
             href={profile.figmaPortfolioUrl}
             target="_blank"
@@ -127,6 +128,29 @@ const Hero = () => {
               </span>
               <span className="tracking-tight">Figma portfolio</span>
               <ExternalLink className="h-3.5 w-3.5 text-muted-foreground transition-colors group-hover:text-primary" />
+            </span>
+          </motion.a>
+
+          {/* Workana freelancer profile */}
+          <motion.a
+            href={profile.workanaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.035, y: -2 }}
+            whileTap={{ scale: 0.98 }}
+            transition={{ type: "spring", stiffness: 400, damping: 22 }}
+            className="group relative inline-flex rounded-full p-[1px] shadow-[0_0_48px_-10px_rgba(0,177,137,0.35)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+            style={{ background: "linear-gradient(120deg, #00B189 0%, #00D4A8 100%)" }}
+            aria-label="Open Workana freelancer profile in a new tab"
+          >
+            <span className="flex items-center gap-2.5 rounded-full bg-background/95 px-5 py-2.5 md:px-6 md:py-3 text-sm font-semibold text-foreground backdrop-blur-sm transition-colors group-hover:bg-background">
+              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-[#00B189] shadow-inner" aria-hidden>
+                <svg viewBox="0 0 24 24" className="h-4 w-4 fill-white" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+                  <path d="M20.5 3h-17A.5.5 0 0 0 3 3.5v17a.5.5 0 0 0 .5.5h17a.5.5 0 0 0 .5-.5v-17a.5.5 0 0 0-.5-.5zm-2.3 5.8-3.6 8.4h-1.5l-1.6-5-1.6 5H8.4L4.8 8.8h1.7l2.4 6 1.7-5.1h1.8l1.7 5.1 2.4-6h1.7z" />
+                </svg>
+              </span>
+              <span className="tracking-tight">Workana profile</span>
+              <ExternalLink className="h-3.5 w-3.5 text-muted-foreground transition-colors group-hover:text-[#00B189]" />
             </span>
           </motion.a>
         </motion.div>

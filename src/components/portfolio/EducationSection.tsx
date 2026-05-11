@@ -54,13 +54,13 @@ const EducationSection = () => {
             <GraduationCap className="w-7 h-7 text-primary" />
           </motion.div>
           <div className="flex-1">
-            <h3 className="text-lg font-bold text-foreground">The Chinese University of Hong Kong (CUHK)</h3>
-            <p className="text-sm text-muted-foreground mt-1">Bachelor's Degree in Computer Science / Information Technology</p>
+            <h3 className="text-lg font-bold text-foreground">Volunteer State Community College</h3>
+            <p className="text-sm text-muted-foreground mt-1">Associate Degree in Computer Science / Information Technology</p>
 
             <div className="flex flex-wrap gap-4 mt-3 text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
                 <MapPin className="w-3.5 h-3.5" />
-                <span>Sha Tin, Hong Kong</span>
+                <span>Gallatin, Tennessee</span>
               </div>
               <div className="flex items-center gap-1.5">
                 <Calendar className="w-3.5 h-3.5" />
@@ -104,8 +104,8 @@ const EducationSection = () => {
                 className="rounded-xl overflow-hidden border border-border shadow-lg"
               >
                 <iframe
-                  title="CUHK Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.3!2d114.2068!3d22.4196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404089b0a8688e1%3A0x8b0e4a0d4b0d0e0!2sThe%20Chinese%20University%20of%20Hong%20Kong!5e0!3m2!1sen!2shk!4v1700000000000!5m2!1sen!2shk"
+                  title="Vol State Location"
+                  src="https://maps.google.com/maps?q=Volunteer+State+Community+College,+1480+Nashville+Pike,+Gallatin,+TN+37066&output=embed"
                   width="100%"
                   height="220"
                   style={{ border: 0 }}

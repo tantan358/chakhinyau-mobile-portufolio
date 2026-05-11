@@ -100,14 +100,14 @@ export const studios: Studio[] = [
 ];
 
 export const profile = {
-  name: "Chak Hin Yau",
+  name: "Daniel Ray",
   title: "Senior Mobile Developer",
-  location: "Hong Kong",
-  university: "The Chinese University of Hong Kong (CUHK)",
-  languages: ["English", "中文", "日本語"],
+  location: "Lafayette, Tennessee, 37083",
+  university: "Volunteer State Community College",
+  languages: ["English"],
   headline: "12 Years. 6 Studios. 50+ Mobile Products.",
-  subheadline: "Senior Mobile Developer based in Hong Kong. CUHK Alumnus. Expert in Android, Flutter, React Native, and full mobile lifecycle delivery from Unicorn Studio to OctopusX.",
-  bio: "Trilingual engineer (English, Chinese, Japanese) specializing in high-scale Android, Flutter, React Native, and cross-platform architectures. 12 years of delivering robust codebases for finance, media, and gaming.",
+  subheadline: "Senior Mobile Developer based in Lafayette, Tennessee. Vol State Alumnus. Expert in Android, Flutter, React Native, and full mobile lifecycle delivery from Unicorn Studio to OctopusX.",
+  bio: "Mobile engineer specializing in high-scale Android, Flutter, React Native, and cross-platform architectures. 12 years of delivering robust codebases for finance, media, and gaming.",
   certifications: [
     "Google Associate Android Developer",
     "Google Certified App Developer",
@@ -125,5 +125,7 @@ export const profile = {
   workHistoryAppsCount: 23,
   /** Figma design portfolio (UI/UX work) */
   figmaPortfolioUrl:
-    "https://www.figma.com/design/9bKBKiSGkSPFXqP5p3xN0f/Chak-Hin-Yau--s-Portfolio?node-id=0-1&t=HHcUwSjkOxIxTJ75-1",
+    "https://www.figma.com/design/9bKBKiSGkSPFXqP5p3xN0f/Daniel-Ray--s-Portfolio?node-id=0-1&t=HHcUwSjkOxIxTJ75-1",
+  /** Workana freelancer profile */
+  workanaUrl: "https://www.workana.com/freelancer/926e74bdcff8813080de57673d4d5950",
 };

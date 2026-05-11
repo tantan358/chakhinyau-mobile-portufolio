@@ -61,7 +61,7 @@ const Header = () => {
           whileTap={{ scale: 0.97 }}
           className="text-sm font-bold text-foreground tracking-tight"
         >
-          CHY<span className="text-primary">.</span>
+          Daniel R<span className="text-primary">.</span>
         </motion.a>
 
         <nav className="flex items-center gap-1">

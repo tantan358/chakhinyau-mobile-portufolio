@@ -27,7 +27,7 @@ const Sidebar = () => {
 
       <div className="mt-auto pt-8 px-3">
         <p className="text-[11px] text-muted-foreground">
-          © 2024 Chak Hin Yau
+          © 2024 Daniel Ray
         </p>
       </div>
     </aside>

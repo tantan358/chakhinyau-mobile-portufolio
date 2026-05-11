@@ -13,7 +13,7 @@ const stats = [
   { value: "12+", label: "Years" },
   { value: "6", label: "Studios" },
   { value: `${profile.totalApps}+`, label: "Apps shipped" },
-  { value: "3", label: "Languages" },
+  { value: "1", label: "Languages" },
 ];
 
 const Footer = () => {
@@ -63,14 +63,14 @@ const Footer = () => {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl font-bold text-foreground tracking-tight">
-              CHY<span className="text-primary">.</span>
+              DR<span className="text-primary">.</span>
             </p>
             <p className="text-sm text-muted-foreground mt-2 leading-relaxed max-w-xs" style={{ textWrap: "pretty" as any }}>
               Senior Mobile Developer crafting high-quality Android & cross-platform apps for over a decade.
             </p>
             <div className="flex items-center gap-1.5 mt-3 text-xs text-muted-foreground">
               <MapPin className="w-3 h-3 text-primary" />
-              <span>Hong Kong</span>
+              <span>Lafayette, TN</span>
               <span className="mx-1 text-border">·</span>
               <Smartphone className="w-3 h-3 text-primary" />
               <span>Mobile First</span>
@@ -106,7 +106,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="py-5 border-t border-border/30 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p className="text-[11px] text-muted-foreground/60">
-            © {new Date().getFullYear()} Chak Hin Yau. All rights reserved.
+            © {new Date().getFullYear()} Daniel Ray. All rights reserved.
           </p>
           <div className="flex items-center gap-1 text-[11px] text-muted-foreground/60">
             <span>Designed & built with</span>
@@ -117,7 +117,7 @@ const Footer = () => {
             >
               ♥
             </motion.span>
-            <span>in Hong Kong</span>
+            <span>in Lafayette, TN</span>
           </div>
         </div>
       </div>
