@@ -21,21 +21,24 @@ export interface Studio {
 export const studios: Studio[] = [
   {
     id: "unicorn",
-    name: "Unicorn Studio Official",
-    years: "2024–2025",
-    duration: "1 year",
-    description: "The foundation. Dating, gaming, and utility apps that launched a 12-year mobile engineering career.",
+    name: "Amazic Fun Hub",
+    years: "2021–2025",
+    duration: "4 years",
+    description: "The foundation. Dating apps that launched a 12-year mobile engineering career.",
     apps: [
       { name: "Unicorns Match", category: "Dating", playStoreId: "com.dating.unicornsmatch", tech: "Android · Java", technicalNote: "Java client with chat/match flows, push (FCM), and in-app billing on the Play stack.", skills: ["Real-time Chat", "Match Algorithm", "Profile Verification", "Push Notifications", "In-app Purchases"], screenshots: ["unicornsmatch-1", "unicornsmatch-2", "unicornsmatch-3"] },
-      { name: "Unicorn Treats", category: "Lifestyle", playStoreId: "com.eltonkola.unicorntreats", tech: "Android · Java", technicalNote: "RecyclerView-based feeds, local persistence for bookmarks, and tuned image loading/caching.", skills: ["Recipe Feed", "Bookmark Sync", "Offline Mode", "Image Caching", "User Reviews"], screenshots: ["unicorntreats-1", "unicorntreats-2", "unicorntreats-3"] },
-      { name: "Zombie War Idle Defense", category: "Gaming", playStoreId: "com.zombie.war.idle.defense", tech: "Android · Java", technicalNote: "Idle game loop, ad mediation (e.g. AdMob), optional cloud save and economy balancing.", skills: ["Idle Rewards", "Enemy Wave Logic", "Ad Mediation", "Cloud Save", "Performance Tuning"], screenshots: ["zombiewar-1", "zombiewar-2", "zombiewar-3"] },
-      { name: "FNF Studio", category: "Gaming", playStoreId: "com.fnfstudio.ff", tech: "Android · Java", technicalNote: "Rhythm gameplay with tight audio–input sync, level data, and lightweight graphics pipeline.", skills: ["Rhythm Input", "Audio Sync", "Level Progression", "Skin System", "Leaderboard Integration"], screenshots: ["fnfstudio-1", "fnfstudio-2", "fnfstudio-3"] },
+      { name: "EMF Scanner - Metal Detector", category: "Utility", playStoreId: "com.amazicfunhub.emfscanner", tech: "Android · Java", technicalNote: "Magnetometer-based EMF and metal detection with real-time gauge, multi-mode switching (metal/gold/silver/EMF/camera), and μT/mG/G unit toggling.", skills: ["EMF Detection", "Metal & Gold Detector", "Silver Detector", "Camera Detector", "Real-time Gauge & Alerts"], screenshots: ["emfscanner-1", "emfscanner-2", "emfscanner-3"] },
+      { name: "AR Sketch Paint – Drawing App", category: "Art & Creativity", playStoreId: "com.amazicfunhub.ardrawing", tech: "Android · Java", technicalNote: "AR camera overlay for real-time trace-to-sketch; photo-to-sketch conversion pipeline; adjustable opacity control and multiple drawing mode switching.", skills: ["AR Camera Tracing", "Trace to Sketch", "Photo to Sketch", "Sketch Opacity Control", "Drawing Mode Switching"], screenshots: ["ardrawing-1", "ardrawing-2", "ardrawing-3"] },
+      { name: "Santa Claus Call - Prank Call", category: "Entertainment", playStoreId: "com.amazicfunhub.santacall", tech: "Android · Java", technicalNote: "Holiday prank-call app with simulated video calls, AI-driven chat responses, and letter-to-Santa composition with festive themed UI.", skills: ["Fake Video Call", "AI Chat & Responses", "Letter to Santa", "Holiday Themes", "Push Notifications"], screenshots: ["santacall-1", "santacall-2", "santacall-3"] },
+      { name: "AZ Lock: Voice Lock Screen", category: "Security", playStoreId: "com.amazicfunhub.azlock", tech: "Android · Java", technicalNote: "Custom lock screen replacement with voice recognition unlock, pattern lock, and a downloadable wallpaper/theme gallery spanning anime, nature, and movie categories.", skills: ["Voice Password Lock", "Pattern Lock Screen", "Lock Screen Themes", "Wallpaper Gallery", "Security Settings"], screenshots: ["azlock-1", "azlock-2", "azlock-3"] },
+      { name: "Call Screen Theme Color Dialer", category: "Personalization", playStoreId: "com.amazicfunhub.callscreen", tech: "Android · Java", technicalNote: "Incoming/outgoing call screen theming with downloadable wallpapers, dynamic animations, and custom/favorite theme management.", skills: ["Call Screen Themes", "Custom Wallpapers", "Dynamic Animations", "Theme Gallery", "Color Dialer UI"], screenshots: ["callscreen-1", "callscreen-2", "callscreen-3"] },
+      { name: "GPS Tracker: GPS Phone Locator", category: "Navigation", playStoreId: "com.amazicfunhub.gpstracker", tech: "Android · Java", technicalNote: "Family safety and friend-tracking app with real-time map positions, arrival notifications, location history playback, and friend-invite flows.", skills: ["Real-time GPS Tracking", "Family Locator", "Friend Location Sharing", "Location History", "Geofence Alerts"], screenshots: ["gpstracker-1", "gpstracker-2", "gpstracker-3"] },
     ],
   },
   {
     id: "hktdc-council",
-    name: "Hong Kong Trade Development Council",
-    years: "2022–2024",
+    name: "HypGames",
+    years: "2019–2021",
     duration: "2 years",
     description:
       "QR and branding tools, social chat & party games, plus the trade exhibition marketplace—digital e-Badge check-in and e-Coupons for Hong Kong and global sourcing events.",
@@ -47,8 +50,8 @@ export const studios: Studio[] = [
   },
   {
     id: "joynow",
-    name: "Joynow Studio",
-    years: "2021–2022",
+    name: "Manchester United Limited",
+    years: "2017–2018",
     duration: "1 year",
     description: "Educational and lifestyle applications. Language learning, auction platforms, and streaming.",
     apps: [
@@ -59,8 +62,8 @@ export const studios: Studio[] = [
   },
   {
     id: "hkej-company",
-    name: "Hong Kong Economic Journal Company Limited",
-    years: "2018–2021",
+    name: "myarx apps",
+    years: "2016–2017",
     duration: "3 years",
     description: "Enterprise-scale apps for education, hospitality, media, and the cultural sector in Hong Kong.",
     apps: [
@@ -74,7 +77,7 @@ export const studios: Studio[] = [
   {
     id: "hkt",
     name: "Hong Kong Telecommunications (HKT) Ltd",
-    years: "2016–2018",
+    years: "2013–2015",
     duration: "2 years",
     description: "School catering, merchant services apps, and HKFP news delivery for Hong Kong users.",
     apps: [
@@ -87,7 +90,7 @@ export const studios: Studio[] = [
   {
     id: "octopusx",
     name: "OctopusX",
-    years: "2014–2016",
+    years: "2012–2013",
     duration: "2 years",
     description: "Current era. HSBC Private Banking, healthcare apps, automotive platforms, and enterprise products.",
     apps: [

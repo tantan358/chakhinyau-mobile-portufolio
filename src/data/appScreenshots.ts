@@ -1,3 +1,21 @@
+import emfscanner1 from "@/assets/apps/1.webp";
+import emfscanner2 from "@/assets/apps/2.webp";
+import emfscanner3 from "@/assets/apps/3.webp";
+import ardrawing1 from "@/assets/apps/4.webp";
+import ardrawing2 from "@/assets/apps/5.webp";
+import ardrawing3 from "@/assets/apps/6.webp";
+import santacall1 from "@/assets/apps/7.webp";
+import santacall2 from "@/assets/apps/8.webp";
+import santacall3 from "@/assets/apps/9.webp";
+import azlock1 from "@/assets/apps/10.webp";
+import azlock2 from "@/assets/apps/11.webp";
+import azlock3 from "@/assets/apps/12.webp";
+import callscreen1 from "@/assets/apps/13.webp";
+import callscreen2 from "@/assets/apps/14.webp";
+import callscreen3 from "@/assets/apps/15.webp";
+import gpstracker1 from "@/assets/apps/16.webp";
+import gpstracker2 from "@/assets/apps/17.webp";
+import gpstracker3 from "@/assets/apps/18.webp";
 import unicornsmatch1 from "@/assets/apps/unicornsmatch-1.webp";
 import unicornsmatch2 from "@/assets/apps/unicornsmatch-2.webp";
 import unicornsmatch3 from "@/assets/apps/unicornsmatch-3.webp";
@@ -69,6 +87,24 @@ import hktdc2 from "@/assets/apps/hktdc-2.png";
 import hktdc3 from "@/assets/apps/hktdc-3.png";
 
 export const screenshotMap: Record<string, string> = {
+  "emfscanner-1": emfscanner1,
+  "emfscanner-2": emfscanner2,
+  "emfscanner-3": emfscanner3,
+  "ardrawing-1": ardrawing1,
+  "ardrawing-2": ardrawing2,
+  "ardrawing-3": ardrawing3,
+  "santacall-1": santacall1,
+  "santacall-2": santacall2,
+  "santacall-3": santacall3,
+  "azlock-1": azlock1,
+  "azlock-2": azlock2,
+  "azlock-3": azlock3,
+  "callscreen-1":callscreen1,
+  "callscreen-2":callscreen2,
+  "callscreen-3":callscreen3,
+  "gpstracker-1": gpstracker1,
+  "gpstracker-2": gpstracker2,
+  "gpstracker-3": gpstracker3,
   "unicornsmatch-1": unicornsmatch1,
   "unicornsmatch-2": unicornsmatch2,
   "unicornsmatch-3": unicornsmatch3,
