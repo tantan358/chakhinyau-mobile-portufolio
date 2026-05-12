@@ -1,3 +1,30 @@
+import n1 from "@/assets/apps/n1.webp";
+import n2 from "@/assets/apps/n2.webp";
+import n3 from "@/assets/apps/n3.webp";
+import n4 from "@/assets/apps/n4.webp";
+import n5 from "@/assets/apps/n5.webp";
+import n6 from "@/assets/apps/n6.webp";
+import n7 from "@/assets/apps/n7.webp";
+import n8 from "@/assets/apps/n8.webp";
+import n9 from "@/assets/apps/n9.webp";
+import m1 from "@/assets/apps/m1.webp";
+import m2 from "@/assets/apps/m2.webp";
+import m3 from "@/assets/apps/m3.webp";
+import m4 from "@/assets/apps/m4.webp";
+import m5 from "@/assets/apps/m5.webp";
+import m6 from "@/assets/apps/m6.webp";
+import g1 from "@/assets/apps/g1.webp";
+import g2 from "@/assets/apps/g2.webp";
+import g3 from "@/assets/apps/g3.webp";
+import g4 from "@/assets/apps/g4.webp";
+import g5 from "@/assets/apps/g5.webp";
+import g6 from "@/assets/apps/g6.webp";
+import g7 from "@/assets/apps/g7.webp";
+import g8 from "@/assets/apps/g8.webp";
+import g9 from "@/assets/apps/g9.webp";
+import g10 from "@/assets/apps/g10.webp";
+import g11 from "@/assets/apps/g11.webp";
+import g12 from "@/assets/apps/g12.webp";
 import emfscanner1 from "@/assets/apps/1.webp";
 import emfscanner2 from "@/assets/apps/2.webp";
 import emfscanner3 from "@/assets/apps/3.webp";
@@ -174,6 +201,33 @@ export const screenshotMap: Record<string, string> = {
   "hktdc-1": hktdc1,
   "hktdc-2": hktdc2,
   "hktdc-3": hktdc3,
+  "n1": n1,
+  "n2": n2,
+  "n3": n3,
+  "n4": n4,
+  "n5": n5,
+  "n6": n6,
+  "n7": n7,
+  "n8": n8,
+  "n9": n9,
+  "m1": m1,
+  "m2": m2,
+  "m3": m3,
+  "m4": m4,
+  "m5": m5,
+  "m6": m6,
+  "g1": g1,
+  "g2": g2,
+  "g3": g3,
+  "g4": g4,
+  "g5": g5,
+  "g6": g6,
+  "g7": g7,
+  "g8": g8,
+  "g9": g9,
+  "g10": g10,
+  "g11": g11,
+  "g12": g12,
 };
 
 export function getScreenshots(keys?: string[]): string[] {
