@@ -64,7 +64,7 @@ export const studios: Studio[] = [
     name: "Myarx apps",
     years: "2016–2017",
     duration: "1 year",
-    description: "Travel and geography apps. Personal travel tracker, world map quiz, and a bucket list app for discovering and logging world highlights and natural wonders.",
+    description: "Travel apps for explorers. Track visited countries and cities on a personal flag map, challenge geography knowledge with a satellite aerial quiz, and manage a world highlights bucket list.",
     apps: [
       { name: "Places Been – Travel Tracker", category: "Travel", playStoreId: "com.myarx.placesbeen", tech: "Android · Java", technicalNote: "Interactive personal travel map tracking visited countries, cities, UNESCO sites, national parks, airports, and sights with flag map overlay and add-on packs.", skills: ["Travel Map Tracker", "Countries & Cities Log", "UNESCO & National Parks", "Flag Map Overlay", "Upgrades & Add-ons"], screenshots: ["n1", "n2", "n3"] },
       { name: "GuessWhere – World Map Quiz", category: "Education", playStoreId: "com.myarx.guesswhere", tech: "Android · Java", technicalNote: "Satellite aerial-view quiz game challenging players to identify world locations across progressive difficulty levels with hint and help systems.", skills: ["Aerial View Quiz", "World Location Guessing", "Progressive Levels", "Hint & Help System", "Landmark Recognition"], screenshots: ["n4", "n5", "n6"] },
