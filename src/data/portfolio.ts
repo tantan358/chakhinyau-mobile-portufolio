@@ -90,7 +90,7 @@ export const profile = {
   title: "Senior Mobile Developer",
   location: "Lafayette, Tennessee, 37083",
   university: "Volunteer State Community College",
-  languages: ["English"],
+  languages: ["spanish, English, portuguese, japanese, german"],
   headline: "12 Years. 5 Studios. 50+ Mobile Products.",
   subheadline: "Senior Mobile Developer based in Lafayette, Tennessee. Vol State Alumnus. Expert in Android, Flutter, React Native, and full mobile lifecycle delivery across 5 studios.",
   bio: "Mobile engineer specializing in high-scale Android, Flutter, React Native, and cross-platform architectures. 12 years of delivering robust codebases for finance, media, and gaming.",
