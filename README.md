@@ -1,6 +1,6 @@
 # Mobile Developer Portfolio
 
-Vite + React + TypeScript portfolio for **Chak Hin Yau** — work history, apps, and skills.
+Vite + React + TypeScript portfolio for **Daniel Ray** — work history, apps, and skills.
 
 ## Scripts
 

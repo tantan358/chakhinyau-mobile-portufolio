@@ -63,8 +63,8 @@ export const studios: Studio[] = [
     id: "hkej-company",
     name: "Myarx apps",
     years: "2016–2017",
-    duration: "3 years",
-    description: "Enterprise-scale apps for education, hospitality, media, and the cultural sector in Hong Kong.",
+    duration: "1 year",
+    description: "Travel and geography apps. Personal travel tracker, world map quiz, and a bucket list app for discovering and logging world highlights and natural wonders.",
     apps: [
       { name: "Places Been – Travel Tracker", category: "Travel", playStoreId: "com.myarx.placesbeen", tech: "Android · Java", technicalNote: "Interactive personal travel map tracking visited countries, cities, UNESCO sites, national parks, airports, and sights with flag map overlay and add-on packs.", skills: ["Travel Map Tracker", "Countries & Cities Log", "UNESCO & National Parks", "Flag Map Overlay", "Upgrades & Add-ons"], screenshots: ["n1", "n2", "n3"] },
       { name: "GuessWhere – World Map Quiz", category: "Education", playStoreId: "com.myarx.guesswhere", tech: "Android · Java", technicalNote: "Satellite aerial-view quiz game challenging players to identify world locations across progressive difficulty levels with hint and help systems.", skills: ["Aerial View Quiz", "World Location Guessing", "Progressive Levels", "Hint & Help System", "Landmark Recognition"], screenshots: ["n4", "n5", "n6"] },
@@ -73,28 +73,14 @@ export const studios: Studio[] = [
   },
   {
     id: "hkt",
-    name: "Booking.com Hotels & Vacation Rentals",
-    years: "2013–2015",
-    duration: "2 years",
-    description: "School catering, merchant services apps, and HKFP news delivery for Hong Kong users.",
+    name: "MonetizeGo",
+    years: "2014–2015",
+    duration: "1 year",
+    description: "Ad-supported utility and media apps. Breaking US news, investment community tools, and a multi-source video downloader with built-in HD player.",
     apps: [
-      { name: "GourMax Catering by HKT", category: "Catering", playStoreId: "com.hkej.edu", tech: "Android · Kotlin", technicalNote: "School meal ordering, notices, and payment hooks integrated with HKT merchant services.", skills: ["School Meal Ordering", "Onboarding & Branding", "Notice Board & Promos", "Messages & Payments", "HKT Merchant Integration"], screenshots: ["gourmax-1", "gourmax-2", "gourmax-3"] },
-      { name: "Seamart Catering by HKT", category: "Catering", playStoreId: "com.hkej.ereader", tech: "Android · Kotlin", technicalNote: "Parent/student profiles, multi-month ordering windows, promos, and secure session handling.", skills: ["Flexible Scheduling", "Secure Login", "Parent & Student Profiles", "Tap & Go Promotions", "Multi-month Ordering"], screenshots: ["seamart-1", "seamart-2", "seamart-3"] },
-      { name: "Hong Kong Free Press HKFP by HKT", category: "News", playStoreId: "com.hongkongfreepress.app", tech: "Android · Kotlin", technicalNote: "News API–driven feeds, article reader, membership/support flows, and offline article cache.", skills: ["Breaking News Feed", "Article Reader", "Topics & Search", "Support & Membership", "Offline Reading"], screenshots: ["hkfpbyhkt-1", "hkfpbyhkt-2", "hkfpbyhkt-3"] },
-      { name: "Murray by HKT", category: "Catering", playStoreId: "com.hkt.o2o.murray", tech: "Android · Kotlin", technicalNote: "Catering ordering aligned with HKT O2O patterns: schedules, profiles, and merchant-backed payments.", skills: ["School Meal Ordering", "Flexible Scheduling", "HKT Merchant Services", "Login & Profiles", "Tap & Go Promotions"], screenshots: ["murrayhkt-1", "murrayhkt-2", "murrayhkt-3"] },
-    ],
-  },
-  {
-    id: "octopusx",
-    name: "WishRoll",
-    years: "2012–2013",
-    duration: "2 years",
-    description: "Current era. HSBC Private Banking, healthcare apps, automotive platforms, and enterprise products.",
-    apps: [
-      { name: "HSBC Private Banking HK", category: "Finance", playStoreId: "com.hsbcprivatebank.hsbcprivatebankinghk", tech: "Android · Kotlin · Compose", technicalNote: "Jetpack Compose UI, hardened networking, biometric login, and compliance-aware messaging.", skills: ["Portfolio Overview", "Secure Messaging", "Investment Insights", "Biometric Security", "Regulatory Compliance"], screenshots: ["hsbcprivatebankinghk-1", "hsbcprivatebankinghk-2", "hsbcprivatebankinghk-3"] },
-      { name: "Staff HK", category: "Enterprise", playStoreId: "com.none.staff.hk.production", tech: "Android · Kotlin", technicalNote: "Shift and task models, attendance sync, in-app chat, and manager reporting endpoints.", skills: ["Shift Planning", "Task Assignment", "Attendance Sync", "Internal Chat", "Manager Reports"], screenshots: ["staffhk-1", "staffhk-2", "staffhk-3"] },
-      { name: "BuyCar.hk-香港新車二手車買賣平台", category: "Automotive", playStoreId: "com.lemongene.buycarapp", tech: "Android · Kotlin", technicalNote: "Search/filter pipelines, listing detail, analytics views, and multi-step sell/quote flows.", skills: ["Search & Filters", "Listing Compare", "Price Trends & Analytics", "Multi-dealer Quotes", "Sell & Valuation Flow"], screenshots: ["buycarhk-1", "buycarhk-2", "buycarhk-3"] },
-      { name: "Hong Kong Adventist Hospital", category: "Healthcare", playStoreId: "hk.org.hkah.hkah", tech: "Android · Kotlin · Compose", technicalNote: "Compose screens for booking and queues, hospital APIs, billing summaries, and PHI-safe patterns.", skills: ["Outpatient Booking", "e-Queue & Check-in", "Clinic Schedules", "Billing & Records", "Health Information"], screenshots: ["hkadventist-1", "hkadventist-2", "hkadventist-3"] },
+      { name: "USA News Updates", category: "News", playStoreId: "com.monetizego.usanews", tech: "Android · Kotlin", technicalNote: "Ad-monetized news app with categorised feeds covering crime, lifestyle, and politics; real-time article updates and push notifications.", skills: ["Crime Coverage Feed", "Lifestyle Headlines", "US Politics Updates", "Push Notifications", "Category Navigation"], screenshots: ["c1", "c2", "c3"] },
+      { name: "Investment Guru", category: "Finance", playStoreId: "com.monetizego.investmentguru", tech: "Android · Java", technicalNote: "Investment community platform with a discussion wall, userbook, suggestion board, support tools, notifications, and account management.", skills: ["Community Wall", "Userbook & Suggestions", "Investment Tools", "Notifications", "Support & Feedback"], screenshots: ["c4", "c5", "c6"] },
+      { name: "All Video Downloader HD Player", category: "Utility", playStoreId: "com.monetizego.videodownloader", tech: "Android · Java", technicalNote: "Multi-resolution video downloader (1080p/720p/480p) with 4x download speed, Instagram status saver, and built-in HD video player.", skills: ["Fast 4x Download Speed", "1080p / 720p / 480p Quality", "Save IG Status", "Built-in HD Video Player", "Multi-source Downloads"], screenshots: ["c7", "c8", "c9"] },
     ],
   },
 ];
@@ -105,8 +91,8 @@ export const profile = {
   location: "Lafayette, Tennessee, 37083",
   university: "Volunteer State Community College",
   languages: ["English"],
-  headline: "12 Years. 6 Studios. 50+ Mobile Products.",
-  subheadline: "Senior Mobile Developer based in Lafayette, Tennessee. Vol State Alumnus. Expert in Android, Flutter, React Native, and full mobile lifecycle delivery from Unicorn Studio to OctopusX.",
+  headline: "12 Years. 5 Studios. 50+ Mobile Products.",
+  subheadline: "Senior Mobile Developer based in Lafayette, Tennessee. Vol State Alumnus. Expert in Android, Flutter, React Native, and full mobile lifecycle delivery across 5 studios.",
   bio: "Mobile engineer specializing in high-scale Android, Flutter, React Native, and cross-platform architectures. 12 years of delivering robust codebases for finance, media, and gaming.",
   certifications: [
     "Google Associate Android Developer",
@@ -122,7 +108,7 @@ export const profile = {
   /** Total mobile apps / products shipped over career (portfolio marketing figure) */
   totalApps: 50,
   /** Apps with full cards & screenshots in Work History */
-  workHistoryAppsCount: 23,
+  workHistoryAppsCount: 19,
   /** Figma design portfolio (UI/UX work) */
   figmaPortfolioUrl:
     "https://www.figma.com/design/9bKBKiSGkSPFXqP5p3xN0f/Daniel--s-Portfolio?node-id=0-1&t=rGbs8K3IithOBKql-1",

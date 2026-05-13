@@ -1,3 +1,12 @@
+import c1 from "@/assets/apps/c1.webp";
+import c2 from "@/assets/apps/c2.webp";
+import c3 from "@/assets/apps/c3.webp";
+import c4 from "@/assets/apps/c4.webp";
+import c5 from "@/assets/apps/c5.webp";
+import c6 from "@/assets/apps/c6.webp";
+import c7 from "@/assets/apps/c7.webp";
+import c8 from "@/assets/apps/c8.webp";
+import c9 from "@/assets/apps/c9.webp";
 import n1 from "@/assets/apps/n1.webp";
 import n2 from "@/assets/apps/n2.webp";
 import n3 from "@/assets/apps/n3.webp";
@@ -201,6 +210,15 @@ export const screenshotMap: Record<string, string> = {
   "hktdc-1": hktdc1,
   "hktdc-2": hktdc2,
   "hktdc-3": hktdc3,
+  "c1": c1,
+  "c2": c2,
+  "c3": c3,
+  "c4": c4,
+  "c5": c5,
+  "c6": c6,
+  "c7": c7,
+  "c8": c8,
+  "c9": c9,
   "n1": n1,
   "n2": n2,
   "n3": n3,
