@@ -113,5 +113,5 @@ export const profile = {
   figmaPortfolioUrl:
     "https://www.figma.com/design/9bKBKiSGkSPFXqP5p3xN0f/Daniel--s-Portfolio?node-id=0-1&t=rGbs8K3IithOBKql-1",
   /** Workana freelancer profile */
-  workanaUrl: "https://www.workana.com/freelancer/926e74bdcff8813080de57673d4d5950",
+  workanaUrl: "https://www.workana.com/freelancer/74ab8adf4e98e12db160159952c2e972",
 };
